@@ -10,34 +10,39 @@ using System.Windows.Forms;
 
 namespace Independent_Contractors_1._0
 {
-    public partial class Form6 : Form
+    public partial class Form7 : Form
     {
-        public Form6()
+        public Form7()
         {
             InitializeComponent();
         }
 
-        private void Form6_Load(object sender, EventArgs e)
+        private void Form7_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void textBox4_TextChanged(object sender, EventArgs e)
+        private void textBox5_TextChanged(object sender, EventArgs e)
         {
 
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
-            Form5 f5 = new Form5();
-            f5.Show();
+            Form3 f3 = new Form3();
+            f3.Show();
             this.Hide();
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            Form1 f1 = new Form1();
-            f1.Show();
+            Form4 f4 = new Form4();
+            f4.Show();
             this.Hide();
         }
     }

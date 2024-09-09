@@ -26,5 +26,19 @@ namespace Independent_Contractors_1._0
         {
 
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Form4 f4 = new Form4();
+            f4.Show();
+            this.Hide();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Form6 f6 = new Form6();
+            f6.Show();
+            this.Hide();
+        }
     }
 }
