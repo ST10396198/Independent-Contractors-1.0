@@ -47,7 +47,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.textBox1.BackColor = System.Drawing.SystemColors.Highlight;
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.Location = new System.Drawing.Point(134, 309);
             this.textBox1.Margin = new System.Windows.Forms.Padding(4);
@@ -59,13 +59,14 @@
             // 
             // button5
             // 
+            this.button5.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button5.Location = new System.Drawing.Point(710, 415);
             this.button5.Margin = new System.Windows.Forms.Padding(4);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(91, 26);
             this.button5.TabIndex = 74;
             this.button5.Text = "Support";
-            this.button5.UseVisualStyleBackColor = true;
+            this.button5.UseVisualStyleBackColor = false;
             // 
             // button1
             // 
@@ -99,8 +100,8 @@
             // 
             // textBox2
             // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.Location = new System.Drawing.Point(230, 87);
             this.textBox2.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2.Name = "textBox2";
@@ -108,10 +109,11 @@
             this.textBox2.TabIndex = 76;
             this.textBox2.Text = "Claims are fufilled every Monday.";
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // textBox3
             // 
-            this.textBox3.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.textBox3.BackColor = System.Drawing.SystemColors.Highlight;
             this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox3.Location = new System.Drawing.Point(134, 186);
             this.textBox3.Margin = new System.Windows.Forms.Padding(4);
@@ -123,7 +125,7 @@
             // 
             // textBox4
             // 
-            this.textBox4.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.textBox4.BackColor = System.Drawing.SystemColors.Highlight;
             this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox4.Location = new System.Drawing.Point(134, 247);
             this.textBox4.Margin = new System.Windows.Forms.Padding(4);
@@ -137,6 +139,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(266, 417);
             this.label1.Name = "label1";
@@ -146,7 +149,7 @@
             // 
             // textBox5
             // 
-            this.textBox5.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.textBox5.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox5.Location = new System.Drawing.Point(467, 186);
             this.textBox5.Margin = new System.Windows.Forms.Padding(4);
@@ -219,7 +222,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.BackgroundImage = global::Independent_Contractors_1._0.Properties.Resources.IMG_20240811_142212_724;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.button7);

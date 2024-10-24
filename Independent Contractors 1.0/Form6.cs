@@ -40,5 +40,10 @@ namespace Independent_Contractors_1._0
             f1.Show();
             this.Hide();
         }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
